@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pokedex Moderna</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Pokedex</h1>
+    <div class="search-box">
+      <input type="text" id="search" placeholder="Ingresa un Pokémon" />
+      <button onclick="getPokemon()">Buscar</button>
+    </div>
+    <div id="pokemon-card" class="card hidden">
+      <img id="sprite" src="" alt="Imagen Pokémon" />
+      <h2 id="name"></h2>
+      <p id="type"></p>
+      <ul id="details"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
